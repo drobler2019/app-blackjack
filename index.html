@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <header>
+      <h1>BlackJack</h1>
+  </header>
+
+  <div class="botones">
+      <button class="nuevo" disabled>Nuevo juego</button>
+      <button class="pedir">Pedir carta</button>
+      <button class="detener">Detener</button>
+  </div>
+
+  <div class="turno">
+      <h3>Turno jugador: </h3>
+      <p></p>
+  </div>
+  <main class="contenedor_jugadores">
+  </main>
+
+  <div id="modal-mascara" class="modal_mascara">
+      <div class="modal_jugadores">
+          <button class="UnJugador">1 jugador</button>
+          <button class="DosJugadores">2 jugadores</button>
+      </div>
+  </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
